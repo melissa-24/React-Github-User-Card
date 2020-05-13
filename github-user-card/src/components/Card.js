@@ -20,7 +20,7 @@ function Card(props) {
   
     return (
       <div className="followers-container">
-        <button className="" onClick={handleFollower}>
+        <button className="follow-button" onClick={handleFollower}>
           Followers
         </button>
         <div className="followers">
